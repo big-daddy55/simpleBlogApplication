@@ -1,0 +1,81 @@
+* {
+  font-family: "Montserrat";
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+section {
+  margin: 20px;
+}
+h1 {
+  margin-top: 0;
+  text-align: center;
+  background-color: rgb(24, 24, 24);
+  padding: 10px;
+  color: white;
+}
+
+#post-form-container {
+  margin-bottom: 20px;
+}
+#post-form-container h2 {
+  border: 1px solid rgb(105, 105, 105);
+  width: 10%;
+  padding: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#post-form-container h2:hover {
+  background-color: rgb(24, 24, 24);
+  color: white;
+}
+
+#post-form {
+  display: none;
+  grid-template-columns: 100px 1fr;
+  grid-gap: 10px;
+  margin-top: 10px;
+}
+
+#post-form label {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+#post-form input,
+#post-form textarea {
+  width: 50%;
+  padding: 20px;
+}
+
+#posts-container {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+
+#posts-container div {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#posts-container h2,
+#posts-container p {
+  margin: 0;
+}
+
+#posts-container button {
+  margin-top: 10px;
+}
+
+#submit-button{
+    padding: 10px;
+    font-size: 1.1em;
+    background-color: rgb(24, 24, 24);
+    border-radius: 15px;
+    color: white;
+}
